@@ -1,3 +1,5 @@
+import greetingRequest from '../../Api/APIcall';
+
 const initialState = {
   greeting: '',
 };
@@ -5,7 +7,7 @@ const initialState = {
 const GET_GREETING = '/greeting/GET_GREETING';
 
 const getGreeting = async (dispatch) => {
-  const greeting = 'Hello Worlsd';
+  const greeting = await greetingRequest();
   return dispatch({
     type: GET_GREETING,
     payload: greeting,
