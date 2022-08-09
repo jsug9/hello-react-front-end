@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-- [GitHub Deploy](https://jsug9.github.io/hello-react-front-end/).
+- To add an image here.
 
 ## Getting Started
 
