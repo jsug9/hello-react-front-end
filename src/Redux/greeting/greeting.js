@@ -5,7 +5,7 @@ const initialState = {
 const GET_GREETING = '/greeting/GET_GREETING';
 
 const getGreeting = async (dispatch) => {
-  const greeting = { greeting: 'Hello World' };
+  const greeting = 'Hello Worlsd';
   return dispatch({
     type: GET_GREETING,
     payload: greeting,
