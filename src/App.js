@@ -4,7 +4,7 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import GreetingPage from './pages/GreetingPage';
+import GreetingPage from './Pages/GreetingPage';
 
 const App = () => (
   <Router basename={process.env.PUBLIC_URL}>
