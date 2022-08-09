@@ -11,9 +11,9 @@
 - React
 - Redux
 
-## Live Demo
+## Demo
 
-- To add an image here.
+<img src="./src/Assets/Demo.gif" alt="Demo">
 
 ## Getting Started
 
